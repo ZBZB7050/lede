@@ -59,6 +59,7 @@ jobs:
           # git clone https://github.com/jerrykuku/luci-app-vssr.git
           # git clone https://github.com/fw876/helloworld.git
           # git clone https://github.com/project-openwrt/openwrt-naiveproxy.git   #git ssr-plus 依赖
+          git clone https://github.com/arvidn/libtorrent.git
 
           # sudo mkdir -p -m 777 /mnt/openwrt/bin /mnt/openwrt/build_dir/host /mnt/openwrt/build_dir/hostpkg /mnt/openwrt/dl /mnt/openwrt/feeds /mnt/openwrt/staging_dir
           # ln -s /mnt/openwrt/bin ./bin
