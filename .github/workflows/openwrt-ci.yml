@@ -10,9 +10,9 @@
 name: OpenWrt-CI
 
 on:
-  push:
-    branches: 
-      - master
+  # push:
+    # branches: 
+      # - master
   schedule:
     - cron: 0 16 * * *
   release:
@@ -167,7 +167,7 @@ jobs:
           CONFIG_PACKAGE_luci-app-unblockmusic=y
           CONFIG_PACKAGE_luci-app-v2ray-server=y
           CONFIG_PACKAGE_luci-app-vlmcsd=y
-          # CONFIG_PACKAGE_luci-app-vssr=y
+          CONFIG_PACKAGE_luci-app-vssr=y
           CONFIG_PACKAGE_luci-app-wireguard=y
           CONFIG_PACKAGE_luci-app-wrtbwmon=y
           EOF
